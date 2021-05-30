@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Registration form</title>
+  <link href="style.css" rel="stylesheet">
+ </head>
+ <body>
+ <h1 class="header">Форма регистрации</h1>
+  <form method="post" action="">
+   <p><input name="textfield" id="name" placeholder="Введите имя"></p>
+   <p><input name="textfield" id="surname" placeholder="Введите фамилию"></p>
+   <p><input name="textfield" id="email" placeholder="Введите EMail"></p>
+   <p><input name="textfield" id="password" placeholder="Введите пароль"></p>
+   <p><input name="textfield" id="repeatPassword" placeholder="Повторите пароль"></p>
+  </form>
+  <div class="err" id="errorMessage"></div>
+  <button id="registrationButton" onclick="checkForm()">Зарегистрироваться</button>
+  <script src="script.js"></script>
+  </body>
+</html>
